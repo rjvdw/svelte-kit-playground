@@ -1,0 +1,21 @@
+@use 'theme'
+
+\:root, body
+  width: 100%
+  height: 100%
+  margin: 0
+  padding: 0
+
+\:root
+  accent-color: theme.$highlight-color
+  font-family: theme.$base-font-family
+
+body
+  background-color: theme.$base-background-color
+  color: theme.$base-foreground-color
+
+*
+  box-sizing: border-box
+
+#app-root
+  display: contents
