@@ -1,5 +1,7 @@
 # create-svelte
 
+[![Netlify Status][netlify-badge]][netlify-deploy]
+
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
 ## Creating a project
@@ -36,3 +38,6 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+[netlify-badge]: https://api.netlify.com/api/v1/badges/873f821e-1d2d-4cea-bf1d-09a0d117009d/deploy-status
+[netlify-deploy]: https://app.netlify.com/sites/rdcl-svelte-kit-playground/deploys
