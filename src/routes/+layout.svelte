@@ -12,12 +12,9 @@
     <slot name="side-menu">
       <SideMenu>
         <svelte:fragment slot="nav">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about-me">About Me</a>
-          </li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about-me">About Me</a></li>
+          <li><a href="/contact">Contact</a></li>
         </svelte:fragment>
       </SideMenu>
     </slot>
